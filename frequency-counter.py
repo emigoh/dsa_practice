@@ -24,3 +24,4 @@ https://leetcode.com/problems/ransom-note/description/'''
 #each letter in magazine can only be used once
 #case sensitive?
 #return a boolean
+#keep in mind min and max length

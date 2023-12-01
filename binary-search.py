@@ -22,6 +22,18 @@ Input: nums = [-1,0,3,5,9,12], target = 2
 Output: -1
 Explanation: 2 does not exist in nums so return -1'''
 
+#return index value or -1
+#O(log n) runtime
+#arrays are sorted in ascending order
+
+#if array is empty return -1
+#if length of array is less than 2, don't need to binary search
+#set pointer for left and right bound
+#get midpoint - round down
+#check if target is equal to midpoint
+#if not, check if target is less than or greater than midpoint
+
+
 class Solution(object):
     def search(self, nums, target):
         """
